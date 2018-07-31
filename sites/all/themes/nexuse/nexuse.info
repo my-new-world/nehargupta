@@ -1,0 +1,82 @@
+;Theme info
+name = Nexuse
+description = Nexuse ready for use Industries, School, hospital, corporative, travel, fashion, jewellery and any business.
+package = Core
+version = VERSION
+core = 7.x
+screenshot = 'screenshot.png'
+
+; Add a style sheet
+stylesheets[all][] = css/slider/layerslider.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/responsive.css
+stylesheets[all][] = js/flex-slider/flexslider.css
+stylesheets[all][] = js/prettyPhoto/css/prettyPhoto.css
+stylesheets[all][] = css/font-awesome.min.css
+stylesheets[all][] = css/update.css
+
+; Add a script
+scripts[] = js/greensockcd.js
+scripts[] = js/jquery/jquery.js
+scripts[] = js/jquery/jquery-migrate.min.js
+scripts[] = js/layerslider.kreaturamedia.jquery.js
+scripts[] = js/layerslider.transitions.js
+scripts[] = js/jquery/ui/core.min.js
+scripts[] = js/jquery/ui/widget.min.js
+scripts[] = js/jquery/ui/accordion.min.js
+scripts[] = js/script.js
+scripts[] = js/jquery.easing.1.3.js
+scripts[] = js/jquery.isotope.min.js
+scripts[] = js/flex-slider/jquery.flexslider-min.js
+scripts[] = js/prettyPhoto/js/jquery.prettyPhoto.js
+scripts[] = js/jquery.tubular.1.0.js
+scripts[] = js/comment-reply.min.js
+scripts[] = js/update.js
+
+;Core regions
+regions[header_right] = 'Header right'
+regions[main_menu] = 'Main menu'
+regions[page_heading]= 'Page Heading'
+regions[content] = 'Main Content'
+regions[content_section] = 'Content Section'
+regions[relation_portfolio] = 'Relation Portfolio'
+regions[relation_blog] = 'Relation Blog'
+regions[right_sidebar] = 'Right Sidebar'
+regions[right_sidebar_blog] = 'Right Sidebar Blog'
+regions[footer_widget] = 'Footer widget'
+
+
+;Features (core settings)
+features[] = 'logo'
+features[] = 'name'
+
+features[] = 'slogan'
+features[] = 'node_user_picture'
+features[] = 'comment_user_picture'
+features[] = 'comment_user_verification'
+features[] = 'favicon'
+features[] = 'go_to_top_button'
+features[] = 'secondary_menu'
+
+;Breadcrumb
+settings[breadcrumb_display] = 'yes'
+settings[breadcrumb_separator] = ' &#187; '
+settings[breadcrumb_home] = 1
+
+settings[footer_copyright_message] = 'Copyright 2015 Nexuse - Designed by <a title="Premium Drupal Theme" href="http://drupal.orrg/">Drupal</a>'
+settings[menu_footer]= '<a href="#">About</a><a href="#">Term</a><a href="#">Policy</a><a href="#">Sitemap</a>'
+settings[header_top_right_message] = 'Call Us : <a href="#">+84 012 345 678</a><br>Email Us : <a href="#">contact@something.com</a>'
+settings[header_social_network] = '<a target="_blank"  href="#"><i class="fa fa-facebook"></i></a>'
+
+
+settings[facebook_url] = 'https://www.facebook.com/'
+settings[twitter_url] = 'https://www.twitter.com/'
+settings[dribbble_url] = 'https://dribbble.com/'
+settings[instagram_url] = 'https://www.instagram.com/'
+settings[linkedin_url] = 'https://www.linkedin.com/'
+
+
+
+version = "7.x"
+project = "Nexuse"
+datestamp = "1365027012"
