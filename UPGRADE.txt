@@ -234,3 +234,13 @@ following the instructions in the INTRODUCTION section at the top of this file:
 
 To get started with Drupal 7 administration, visit
 http://drupal.org/getting-started/7/admin
+		<div class="textwidget">
+			<p> 806, 8th floor, Pragati Tower, Prasad Nagar, Rajendra Place, New Delhi, Delhi 110008
+				Phone: 8375831676
+				E-Mail:<a href="#">caguptaneham@gmail.com</a>
+				Web: <a href="#">http://site.com</a>
+			</p>
+		</div>
+	
+
+
