@@ -63,7 +63,7 @@ settings[breadcrumb_display] = 'yes'
 settings[breadcrumb_separator] = ' &#187; '
 settings[breadcrumb_home] = 1
 
-settings[footer_copyright_message] = 'Copyright 2015 Nexuse - Designed by <a title="Premium Drupal Theme" href="http://drupal.orrg/">Drupal</a>'
+settings[footer_copyright_message] = 'Developed and Designed by <a title="Premium Drupal Theme" href="https://2pisolutions.com/">2pi Solutions</a>'
 settings[menu_footer]= '<a href="#">About</a><a href="#">Term</a><a href="#">Policy</a><a href="#">Sitemap</a>'
 settings[header_top_right_message] = 'Call Us : <a href="#">+84 012 345 678</a><br>Email Us : <a href="#">contact@something.com</a>'
 settings[header_social_network] = '<a target="_blank"  href="#"><i class="fa fa-facebook"></i></a>'
