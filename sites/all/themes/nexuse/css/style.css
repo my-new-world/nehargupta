@@ -3577,3 +3577,8 @@ ul.filters{
 .live_change_section_body .color-scheme.selected-color{
 	background-color:#F9BF3B;
 }
+
+.site-logo img {
+	max-width:250px;
+	margin-top:30px;
+}
