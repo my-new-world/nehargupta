@@ -64,12 +64,12 @@ global $base_root, $base_url;
 	<div class="portfolio-small-column right">
 		<div class="portfolio-single-data">
 			<div class="portfolio-single-navigation">
-				<div class="portfolio-single-navigation-left"><a href="<?php print url("node/".dad_prev_next($nid, 'portfolios', 'p'));?>" rel="prev"><i class="fa fa-angle-left"></i><?php print t(' Prev Project') ?></a></div>
-				<div class="portfolio-single-navigation-right"><a href="<?php print url("node/".dad_prev_next($nid, 'portfolios', 'n'));?>" rel="next"><?php print t('Next Project ') ?><i class="fa fa-angle-right"></i></a></div>
+				<div class="portfolio-single-navigation-left"><a href="<?php print url("node/".dad_prev_next($nid, 'portfolios', 'p'));?>" rel="prev"><i class="fa fa-angle-left"></i><?php print t(' Prev Service') ?></a></div>
+				<div class="portfolio-single-navigation-right"><a href="<?php print url("node/".dad_prev_next($nid, 'portfolios', 'n'));?>" rel="next"><?php print t('Next Service ') ?><i class="fa fa-angle-right"></i></a></div>
 				<div class="cleared"></div>
 			</div>
 			<div class="portfolio-single-content content">
-				<div class="portfolio-single-detail">
+<!--				<div class="portfolio-single-detail">
 					<div class="portfolio-single-detail-entry">
 						<div class="portfolio-single-detail-name"><?php print t('Owner') ?></div>
 						<div class="portfolio-single-detail-content"><?php print @$node->field_owner['und'][0]['value'];?></div>
@@ -78,20 +78,20 @@ global $base_root, $base_url;
 						<div class="portfolio-single-detail-name"><?php print t('Project') ?></div>
 						<div class="portfolio-single-detail-content"><?php print @$node->title;?></div>
 					</div>
-				</div>
-				<div class="portfolio-single-detail-entry">
-					<div class="portfolio-single-detail-name"><?php print t('Category') ?></div>
-					<div class="portfolio-single-detail-content">
-						<?php print strip_tags(render($content['field_portfolios_categories']),'<a>');?>
-					</div>
-				</div>
+				</div>-->
+				<!--<div class="portfolio-single-detail-entry">-->
+					<!--<div class="portfolio-single-detail-name"><?php // print t('Category') ?></div>-->
+<!--					<div class="portfolio-single-detail-content">
+						<?php // print strip_tags(render($content['field_portfolios_categories']),'<a>');?>
+					</div>-->
+				<!--</div>-->
 				<?php print @$node->body['und'][0]['value'];?></div>
-			<div class="portfolio-single-share">
+<!--			<div class="portfolio-single-share">
 				<div class="custom-share-button facebook"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=<?php print $base_root.$node_url; ?>"><i class="fa fa-facebook"></i></a></div>
 				<div class="custom-share-button twitter"><a target="_blank" href="https://twitter.com/intent/tweet?source=webclient&amp;text=<?php print $title; ?>+<?php print $base_root.$node_url; ?>"><i class="fa fa-twitter"></i></a></div>
 				<div class="custom-share-button google"><a target="_blank" href="https://plus.google.com/share?url=<?php print $base_root.$node_url; ?>&amp;title=<?php print $title; ?>"><i class="fa fa-google-plus"></i></a></div>
 				<div class="cleared"></div>
-			</div>
+			</div>-->
 		</div>
 	</div>
 	<div class="cleared"></div>
@@ -110,9 +110,6 @@ global $base_root, $base_url;
 			</a></div>
 		<div class="portfolio-cell-data">
 			<div class="portfolio-cell-title"><a href="<?php print $node_url; ?>"><?php print $title; ?></a></div>
-			<div class="portfolio-cell-categories">
-						<?php print strip_tags(render($content['field_portfolios_categories']),'<a>');?>
-			</div>
 		</div>
 	</div>
 </div>
