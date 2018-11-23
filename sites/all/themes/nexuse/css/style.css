@@ -3582,3 +3582,5 @@ ul.filters{
 	max-width:250px;
 	margin-top:30px;
 }
+
+.portfolio-board-container .portfolio-cell-categories { display:none; }
