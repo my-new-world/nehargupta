@@ -146,7 +146,7 @@ function contact_site_form_submit($form, &$form_state) {
 
   // Get the to and from e-mail addresses.
   $to = $values['category']['recipients'];
-  $from = "http://registrationatease.com";
+  $from = "contact@registrationatease.com";
   $values['message'] = "User Email: ".$values['mail'] . "<br/>". $values['message'];
 
   //$from = $values['sender']->mail;
