@@ -146,7 +146,10 @@ function contact_site_form_submit($form, &$form_state) {
 
   // Get the to and from e-mail addresses.
   $to = $values['category']['recipients'];
-  $from = $values['sender']->mail;
+  $from = "http://registrationatease.com";
+  $values['message'] = "User Email: ".$values['mail'] . "<br/>". $values['message'];
+
+  //$from = $values['sender']->mail;
 
   // Send the e-mail to the recipients using the site default language.
   drupal_mail('contact', 'page_mail', $to, language_default(), $values, $from);
